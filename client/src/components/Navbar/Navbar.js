@@ -4,7 +4,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 export const NavBar = () => {
   return (
     <>
-      <Navbar bg="light" variant="light">
+      <Navbar bg="light" variant="light" fixed="top">
         <Container>
           <Navbar.Brand href="#home">Derek Lewis</Navbar.Brand>
           <Nav className="justify-content-end" activeKey="/home">
