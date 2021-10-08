@@ -14,16 +14,26 @@ import Project from "./components/Project/Project";
 // import Header from "./components/Header/Header";
 import ContactForm from "./components/Contact Form/ContactForm";
 import "./App.css";
+
+const client = new ApolloClient({
+  link: authLink.concat(httpLink),
+  cache: new InMemoryCache(),
+});
+
 function App() {
   return (
-    <>
-      <Navbar />
+    <ApolloProvider client={client}>
+      <Router>
+        <>
+          <Navbar />
 
-      <Project />
+          <Project />
 
-      <ContactForm />
-      <Footer />
-    </>
+          <ContactForm />
+          <Footer />
+        </>
+      </Router>
+    </ApolloProvider>
   );
 }
 
