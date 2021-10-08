@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export const NavBar = () => {
   return (
@@ -10,7 +11,7 @@ export const NavBar = () => {
           <Nav className="justify-content-end" activeKey="/home">
             <Nav.Link href="#home">About Me</Nav.Link>
             <Nav.Link href="#features">Portfolio</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
+            <Link to="/contact">Contact</Link>
             <Nav.Link href="#pricing">Resume</Nav.Link>
           </Nav>
         </Container>
