@@ -9,3 +9,7 @@
 #navBar {
   background-color: var(--dark);
 }
+
+.nav-link {
+  color: var(--dark);
+}
