@@ -43,7 +43,9 @@ function App() {
         <>
           <Navbar />
 
+         <Route exact path="/portfolio">
           <Project />
+          </Route>
 
           <Route exact path="/contact">
             <ContactForm />

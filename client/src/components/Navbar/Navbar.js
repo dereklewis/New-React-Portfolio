@@ -10,7 +10,7 @@ export const NavBar = () => {
           <Navbar.Brand href="#home">Derek Lewis</Navbar.Brand>
           <Nav className="justify-content-end" activeKey="/home">
             <Nav.Link href="#home">About Me</Nav.Link>
-            <Nav.Link href="#features">Portfolio</Nav.Link>
+            <Nav.Link to="/portfolio">Portfolio</Nav.Link>
             <Link to="/contact">Contact</Link>
             <Nav.Link href="#pricing">Resume</Nav.Link>
           </Nav>
