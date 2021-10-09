@@ -7,6 +7,7 @@ import {
 } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import Navbar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
@@ -43,8 +44,8 @@ function App() {
         <>
           <Navbar />
 
-         <Route exact path="/portfolio">
-          <Project />
+          <Route exact path="/portfolio">
+            <Project />
           </Route>
 
           <Route exact path="/contact">

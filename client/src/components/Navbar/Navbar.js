@@ -1,13 +1,14 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "../NavBar/";
 
 export const NavBar = () => {
   return (
     <>
-      <Navbar bg="light" variant="light" fixed="top">
+      <Navbar bg="light" variant="light" fixed="top" id="#nav-bar">
         <Container>
-          <Navbar.Brand href="#home">Derek Lewis</Navbar.Brand>
+          <Navbar.Brand id="name">Derek Lewis</Navbar.Brand>
           <Nav className="justify-content-end" activeKey="/home">
             <Link to="/aboutme">About Me</Link>
             <Link to="/portfolio">Portfolio</Link>

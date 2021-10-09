@@ -1,0 +1,11 @@
+:root {
+  --light: #f8ffe5;
+  --dark: #1b9aaa;
+  --accentGreen: #06d6a0;
+  --accentPink: #ef476f;
+  --accentYellow: #ffc43d;
+}
+
+#navBar {
+  background-color: var(--dark);
+}
