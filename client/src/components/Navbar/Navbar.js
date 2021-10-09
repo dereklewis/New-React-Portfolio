@@ -9,10 +9,10 @@ export const NavBar = () => {
         <Container>
           <Navbar.Brand href="#home">Derek Lewis</Navbar.Brand>
           <Nav className="justify-content-end" activeKey="/home">
-            <Nav.Link href="#home">About Me</Nav.Link>
-            <Nav.Link to="/portfolio">Portfolio</Nav.Link>
+            <Link to="/aboutme">About Me</Link>
+            <Link to="/portfolio">Portfolio</Link>
             <Link to="/contact">Contact</Link>
-            <Nav.Link href="#pricing">Resume</Nav.Link>
+            <Link to="/resume">Resume</Link>
           </Nav>
         </Container>
       </Navbar>
