@@ -20,7 +20,11 @@ const Project = () => {
                   <span>Github Repository</span>
                 </ExternalLink>
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary">
+                <ExternalLink href="https://boiling-reef-48460.herokuapp.com/">
+                  <span className="navButtonText">Visit Concert Carpool</span>
+                </ExternalLink>
+              </Button>
             </Card.Body>
           </Card>
           <Card style={{ width: "18rem" }}>

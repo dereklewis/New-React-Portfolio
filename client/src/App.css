@@ -56,6 +56,10 @@
   padding-top: 20%;
 }
 
+.navButtonText {
+  color: var(--accentYellow);
+}
+
 .App {
   text-align: center;
 }
