@@ -43,13 +43,13 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <>
-          <Navbar>
+          <Navbar />
+          <Route exact path="/aboutme">
             <AboutMe />
-          </Navbar>
+          </Route>
           <Route exact path="/portfolio">
             <Project />
           </Route>
-
           <Route exact path="/contact">
             <ContactForm />
           </Route>

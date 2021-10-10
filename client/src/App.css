@@ -30,6 +30,20 @@
   text-decoration: none;
 }
 
+.text {
+  color: var(--dark);
+  font-size: 30px;
+}
+
+.about-block {
+  padding-top: 10%;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
 .App {
   text-align: center;
 }
