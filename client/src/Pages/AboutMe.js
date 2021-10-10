@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import YourImage from "../assets/IMG3466.png";
+import YourImage from "../components/assets/IMG3466.png";
 
 const AboutMe = () => {
   return (

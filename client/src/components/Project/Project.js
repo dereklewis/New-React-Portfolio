@@ -1,13 +1,23 @@
-//use react router to render component
-import React from "react";
-import "../Project/Project.css";
+// import React from "react";
+// import { Card, Button } from "react-bootstrap";
+// import YourImage from "../../assets/IMG3466.png";
 
-const Project = () => {
-  return (
-    <>
-      <p className="projectText">I am Project</p>
-    </>
-  );
-};
+// const Project = () => {
+//   return (
+//     <div className=" padding: 60px;">
+//       <Card style={{ width: "18rem" }}>
+//         <Card.Img variant="top" src={YourImage} />
+//         <Card.Body>
+//           <Card.Title>Card Title</Card.Title>
+//           <Card.Text>
+//             Some quick example text to build on the card title and make up the
+//             bulk of the card's content.
+//           </Card.Text>
+//           <Button variant="primary">Go somewhere</Button>
+//         </Card.Body>
+//       </Card>
+//     </div>
+//   );
+// };
 
-export default Project;
+// export default Project;

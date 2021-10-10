@@ -39,9 +39,21 @@
   padding-top: 10%;
 }
 
-img {
-  width: 20px;
-  height: 20px;
+.image {
+  size: 140%;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+}
+.form-items {
+  justify-content: center;
+}
+
+.project-cards {
+  padding-top: 20%;
 }
 
 .App {
