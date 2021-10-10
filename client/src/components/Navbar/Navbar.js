@@ -6,16 +6,32 @@ import "../NavBar/NavBar.css";
 export const NavBar = () => {
   return (
     <>
-      <Navbar bg="light" variant="light" fixed="top" id="#nav-bar">
-        <Container>
-          <Navbar.Brand id="name">Derek Lewis</Navbar.Brand>
-          <Nav className="justify-content-end" activeKey="/home">
-            <Link to="/aboutme" className="nav-link">
-              About Me
-            </Link>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/contact">Contact</Link>
-            <Link to="/resume">Resume</Link>
+      <Navbar bg="dark" variant="light" fixed="top" id="#nav-bar">
+        <Container className="justify-content-right">
+          <Link to="/aboutme" className="brandName">
+            Derek Lewis
+          </Link>
+          <Nav className="justify-content-center" activeKey="/home">
+            <Nav.Item>
+              <Link to="/aboutme" className="navLink">
+                About Me
+              </Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Link to="/portfolio" className="navLink">
+                Portfolio
+              </Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Link to="/contact" className="navLink">
+                Contact
+              </Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Link to="/resume" className="navLink">
+                Resume
+              </Link>
+            </Nav.Item>
           </Nav>
         </Container>
       </Navbar>

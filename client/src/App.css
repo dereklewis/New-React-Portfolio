@@ -1,3 +1,35 @@
+:root {
+  --light: #f8ffe5;
+  --dark: #1b9aaa;
+  --accentGreen: #06d6a0;
+  --accentPink: #ef476f;
+  --accentYellow: #ffc43d;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--dark);
+}
+
+.navLinkDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navLink {
+  color: var(--accentPink);
+  justify-content: space-around;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+.brandName {
+  color: var(--accentGreen);
+  font-size: 30px;
+  text-decoration: none;
+}
+
 .App {
   text-align: center;
 }

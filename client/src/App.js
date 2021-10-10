@@ -14,6 +14,7 @@ import Footer from "./components/Footer/Footer";
 import Project from "./components/Project/Project";
 // import Header from "./components/Header/Header";
 import ContactForm from "./components/Contact Form/ContactForm";
+import AboutMe from "./Pages/AboutMe";
 import "./App.css";
 
 const httpLink = createHttpLink({
@@ -42,8 +43,9 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <>
-          <Navbar />
-
+          <Navbar>
+            <AboutMe />
+          </Navbar>
           <Route exact path="/portfolio">
             <Project />
           </Route>
