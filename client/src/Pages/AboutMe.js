@@ -1,12 +1,14 @@
 import React from "react";
-import { Container, Image } from "react-bootstrap";
+import { Container } from "react-bootstrap";
+import YourImage from "../assets/IMG3466.png";
 
 const AboutMe = () => {
   return (
-    <>
-      <Container className="about-block">
-        <img alt="timer" src={require("../assets/IMG_3466.png")} />
-
+    <Container className="about-block">
+      <>
+        <div>
+          <img className="image" src={YourImage} fluid />
+        </div>
         <p className="text">
           After 20 years in the hospitality industry I am excited to make a
           change! I am originally from Binghamton, New York and I love going to
@@ -17,8 +19,8 @@ const AboutMe = () => {
         </p>
 
         <p className="text">Cheers -- Derek</p>
-      </Container>
-    </>
+      </>
+    </Container>
   );
 };
 
