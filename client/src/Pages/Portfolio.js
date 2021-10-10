@@ -4,6 +4,9 @@ import { ExternalLink } from "react-external-link";
 import Concert from "../components/assets/concert.png";
 import GitOutside from "../components/assets/gitoutside.png";
 import Workout from "../components/assets/workout.png";
+import NoteTaker from "../components/assets/notetaker.png";
+import Lyrific from "../components/assets/lyrific.png";
+import DayPlanner from "../components/assets/dayplanner.png";
 
 const Project = () => {
   return (
@@ -46,17 +49,17 @@ const Project = () => {
           </Card>
 
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={Concert} />
+            <Card.Img variant="top" src={Lyrific} />
             <Card.Body>
-              <Card.Title>Concert Carpool</Card.Title>
+              <Card.Title>Lyrific</Card.Title>
               <Card.Text>
-                <ExternalLink href="https://github.com/dereklewis/New-React-Portfolio">
+                <ExternalLink href="https://github.com/dereklewis/music-project-main">
                   <span>Github Repository</span>
                 </ExternalLink>
               </Card.Text>
               <Button variant="primary">
-                <ExternalLink href="https://boiling-reef-48460.herokuapp.com/">
-                  <span className="navButtonText">Visit Concert Carpool</span>
+                <ExternalLink href="https://dereklewis.github.io/music-project-main/">
+                  <span className="navButtonText">Visit Lyrific</span>
                 </ExternalLink>
               </Button>
             </Card.Body>
@@ -79,34 +82,36 @@ const Project = () => {
               </Button>
             </Card.Body>
           </Card>
+
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={Concert} />
+            <Card.Img variant="top" src={NoteTaker} />
             <Card.Body>
-              <Card.Title>Concert Carpool</Card.Title>
+              <Card.Title>Note Taker</Card.Title>
               <Card.Text>
-                <ExternalLink href="https://github.com/dereklewis/New-React-Portfolio">
+                <ExternalLink href="https://github.com/dereklewis/note-taker/settings">
                   <span>Github Repository</span>
                 </ExternalLink>
               </Card.Text>
               <Button variant="primary">
-                <ExternalLink href="https://boiling-reef-48460.herokuapp.com/">
-                  <span className="navButtonText">Visit Concert Carpool</span>
+                <ExternalLink href="https://obscure-journey-60350.herokuapp.com/">
+                  <span className="navButtonText">Visit Note Taker</span>
                 </ExternalLink>
               </Button>
             </Card.Body>
           </Card>
+
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={Concert} />
+            <Card.Img variant="top" src={DayPlanner} />
             <Card.Body>
-              <Card.Title>Concert Carpool</Card.Title>
+              <Card.Title>Day Planner</Card.Title>
               <Card.Text>
-                <ExternalLink href="https://github.com/dereklewis/New-React-Portfolio">
+                <ExternalLink href="https://github.com/dereklewis/day-planner">
                   <span>Github Repository</span>
                 </ExternalLink>
               </Card.Text>
               <Button variant="primary">
-                <ExternalLink href="https://boiling-reef-48460.herokuapp.com/">
-                  <span className="navButtonText">Visit Concert Carpool</span>
+                <ExternalLink href="https://dereklewis.github.io/day-planner/">
+                  <span className="navButtonText">Visit Day Planner</span>
                 </ExternalLink>
               </Button>
             </Card.Body>

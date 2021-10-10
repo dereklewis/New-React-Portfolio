@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { ExternalLink } from "react-external-link";
 import "../NavBar/NavBar.css";
 
 export const Footer = () => {
@@ -10,23 +10,28 @@ export const Footer = () => {
         <Container className="flexContainer">
           <Nav className="footerNav">
             <Nav.Item>
-              <Link
-                to="https://www.linkedin.com/in/derek-lewis-62343511/"
-                target="_blank"
+              <ExternalLink
+                href="https://www.linkedin.com/in/derek-lewis-62343511/"
                 className="navLink"
               >
-                LinkedIn
-              </Link>
+                <span>LinkedIn</span>
+              </ExternalLink>
             </Nav.Item>
             <Nav.Item>
-              <Link to="#features" className="navLink">
-                Github
-              </Link>
+              <ExternalLink
+                href="https://github.com/dereklewis"
+                className="navLink"
+              >
+                <span>Github</span>
+              </ExternalLink>
             </Nav.Item>
             <Nav.Item>
-              <Link to="#pricing" className="navLink">
-                Stack Overflow
-              </Link>
+              <ExternalLink
+                href="https://stackoverflow.com/users/16268162/derek"
+                className="navLink"
+              >
+                <span>Stack Overflow</span>
+              </ExternalLink>
             </Nav.Item>
           </Nav>
         </Container>
