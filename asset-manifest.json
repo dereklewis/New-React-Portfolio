@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/dereklewis/New-React-Portfolio/static/css/main.6d4916fc.chunk.css",
+    "main.js": "/dereklewis/New-React-Portfolio/static/js/main.5fe474de.chunk.js",
+    "main.js.map": "/dereklewis/New-React-Portfolio/static/js/main.5fe474de.chunk.js.map",
+    "runtime-main.js": "/dereklewis/New-React-Portfolio/static/js/runtime-main.288b6b97.js",
+    "runtime-main.js.map": "/dereklewis/New-React-Portfolio/static/js/runtime-main.288b6b97.js.map",
+    "static/css/2.c1256375.chunk.css": "/dereklewis/New-React-Portfolio/static/css/2.c1256375.chunk.css",
+    "static/js/2.ce16058b.chunk.js": "/dereklewis/New-React-Portfolio/static/js/2.ce16058b.chunk.js",
+    "static/js/2.ce16058b.chunk.js.map": "/dereklewis/New-React-Portfolio/static/js/2.ce16058b.chunk.js.map",
+    "static/js/3.4967fb48.chunk.js": "/dereklewis/New-React-Portfolio/static/js/3.4967fb48.chunk.js",
+    "static/js/3.4967fb48.chunk.js.map": "/dereklewis/New-React-Portfolio/static/js/3.4967fb48.chunk.js.map",
+    "index.html": "/dereklewis/New-React-Portfolio/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/dereklewis/New-React-Portfolio/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.6d4916fc.chunk.css.map": "/dereklewis/New-React-Portfolio/static/css/main.6d4916fc.chunk.css.map",
+    "static/js/2.ce16058b.chunk.js.LICENSE.txt": "/dereklewis/New-React-Portfolio/static/js/2.ce16058b.chunk.js.LICENSE.txt",
+    "static/media/IMG3466.c10ab02e.png": "/dereklewis/New-React-Portfolio/static/media/IMG3466.c10ab02e.png",
+    "static/media/concert.f1320da2.png": "/dereklewis/New-React-Portfolio/static/media/concert.f1320da2.png",
+    "static/media/dayplanner.57fbdac5.png": "/dereklewis/New-React-Portfolio/static/media/dayplanner.57fbdac5.png",
+    "static/media/gitoutside.31e8c326.png": "/dereklewis/New-React-Portfolio/static/media/gitoutside.31e8c326.png",
+    "static/media/lyrific.78b1067c.png": "/dereklewis/New-React-Portfolio/static/media/lyrific.78b1067c.png",
+    "static/media/notetaker.b88e1f3f.png": "/dereklewis/New-React-Portfolio/static/media/notetaker.b88e1f3f.png",
+    "static/media/workout.fc06f161.png": "/dereklewis/New-React-Portfolio/static/media/workout.fc06f161.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.288b6b97.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.ce16058b.chunk.js",
+    "static/css/main.6d4916fc.chunk.css",
+    "static/js/main.5fe474de.chunk.js"
+  ]
+}
