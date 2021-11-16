@@ -11,11 +11,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Navbar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
-import Project from "./components/Project/Project";
-// import Header from "./components/Header/Header";
+
 import ContactForm from "./components/Contact Form/ContactForm";
 import AboutMe from "./Pages/AboutMe";
 import Portfolio from "./Pages/Portfolio";
+import Resume from "./Pages/Resume";
 import "./App.css";
 
 const httpLink = createHttpLink({
@@ -46,16 +46,20 @@ function App() {
         <div className="flex-column justify-flex-start min-100-vh"></div>
         <Navbar />
         <div className="container"></div>
-        <Switch></Switch>
-        <Route exact path="/">
-          <AboutMe />
-        </Route>
-        <Route exact path="/portfolio">
-          <Portfolio />
-        </Route>
-        <Route exact path="/contact">
-          <ContactForm />
-        </Route>
+        <Switch>
+          <Route exact path="/">
+            <AboutMe />
+          </Route>
+          <Route exact path="/portfolio">
+            <Portfolio />
+          </Route>
+          <Route exact path="/contact">
+            <ContactForm />
+          </Route>
+          <Route exact path="/resume">
+            <Resume />
+          </Route>
+        </Switch>
         <Footer />
       </Router>
     </ApolloProvider>
