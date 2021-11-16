@@ -25,7 +25,7 @@
 }
 
 .brandName {
-  color: var(--accentGreen);
+  color: var(--accentPink);
   font-size: 30px;
   text-decoration: none;
 }
@@ -40,7 +40,7 @@
 }
 
 .image {
-  size: 140%;
+  size: 5%;
 }
 
 .form {
