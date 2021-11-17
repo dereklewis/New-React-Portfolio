@@ -56,8 +56,18 @@
   padding-top: 20%;
 }
 
-.header {
+.header1 {
   font-size: 40px;
+  color: var(--accentGreen);
+}
+.resume-block {
+  padding: 20% 100% 100% 20%;
+  background-color: var(--accentPink);
+}
+
+.resumeButton {
+  background-color: var(--accentYellow);
+  color: var(--dark);
 }
 
 .navButtonText {
