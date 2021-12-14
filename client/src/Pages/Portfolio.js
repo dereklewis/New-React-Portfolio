@@ -14,11 +14,13 @@ const Project = () => {
       <Row>
         <Col>
           {/* <div className="flex-d flex-wrap justify-content-center"></div> */}
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={Concert} />
             <Card.Body>
               <Card.Title>Concert Carpool</Card.Title>
               <Card.Text>
+                This project was designed to help concert goers get to and from
+                concerts and events more easily
                 <ExternalLink href="https://github.com/dereklewis/New-React-Portfolio">
                   <span>Github Repository</span>
                 </ExternalLink>
@@ -31,7 +33,7 @@ const Project = () => {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={Workout} />
             <Card.Body>
               <Card.Title>Workout Tracker</Card.Title>
@@ -48,7 +50,7 @@ const Project = () => {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={Lyrific} />
             <Card.Body>
               <Card.Title>Lyrific</Card.Title>
@@ -66,7 +68,7 @@ const Project = () => {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={GitOutside} />
             <Card.Body>
               <Card.Title>Git Outside</Card.Title>
@@ -83,7 +85,7 @@ const Project = () => {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={NoteTaker} />
             <Card.Body>
               <Card.Title>Note Taker</Card.Title>
@@ -100,7 +102,7 @@ const Project = () => {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={DayPlanner} />
             <Card.Body>
               <Card.Title>Day Planner</Card.Title>
