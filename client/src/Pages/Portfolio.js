@@ -18,7 +18,7 @@ const Project = () => {
             <Card.Img variant="top" src={Concert} />
             <Card.Body>
               <Card.Title>Concert Carpool</Card.Title>
-              <Card.Text>
+              <Card.Text className="card-text">
                 This project was designed to help concert goers get to and from
                 concerts and events more easily
                 <ExternalLink href="https://github.com/dereklewis/New-React-Portfolio">

@@ -47,7 +47,7 @@ function App() {
         <Navbar />
         <div className="container"></div>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/New-React-Portfolio">
             <AboutMe />
           </Route>
           <Route exact path="/aboutme">
