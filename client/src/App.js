@@ -50,6 +50,9 @@ function App() {
           <Route exact path="/">
             <AboutMe />
           </Route>
+          <Route exact path="/aboutme">
+            <AboutMe />
+          </Route>
           <Route exact path="/portfolio">
             <Portfolio />
           </Route>
