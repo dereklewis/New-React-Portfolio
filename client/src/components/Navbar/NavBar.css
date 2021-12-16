@@ -1,15 +1,24 @@
 :root {
-  --light: #f8ffe5;
-  --dark: #1b9aaa;
-  --accentGreen: #06d6a0;
-  --accentPink: #ef476f;
-  --accentYellow: #ffc43d;
+  --light: #99ddff;
+  --dark: #00458b;
+  --accentGreen: #3fd2c7;
 }
 
-#navBar {
+.navBar {
+  display: flex;
+  justify-content: space-around;
   background-color: var(--dark);
 }
 
-.nav-link {
+.brandName {
   color: var(--dark);
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.navLink {
+  color: var(--accentGreen);
+  justify-content: space-around;
+  margin-left: 40px;
+  text-decoration: none;
 }

@@ -16,7 +16,7 @@
 }
 
 .navLink {
-  color: var(--dark);
+  color: var(--accentGreen);
   justify-content: space-around;
   margin-left: 40px;
   text-decoration: none;
