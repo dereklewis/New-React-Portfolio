@@ -1,14 +1,16 @@
 import React from "react";
-import { Container } from "react-bootstrap";
-import YourImage from "../components/assets/headshotround.jpg";
+import { Container, Row } from "react-bootstrap";
+import YourImage from "../components/assets/fullbody.jpeg";
 
 const Home = () => {
   return (
-    <Container className="about-block">
-      <>
-        <div>
+    <Container fluid className="flexbox">
+      <Row xs={4}>
+        <div classname="image-div">
           <img className="image" src={YourImage} fluid />
         </div>
+      </Row>
+      <Row>
         <p className="text">
           After 20 years in the hospitality industry I am excited to make a
           change! I am originally from Binghamton, New York and I love going to
@@ -19,7 +21,7 @@ const Home = () => {
         </p>
 
         <p className="text">Cheers -- Derek</p>
-      </>
+      </Row>
     </Container>
   );
 };

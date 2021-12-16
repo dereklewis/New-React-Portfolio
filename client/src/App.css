@@ -18,7 +18,12 @@
   padding-top: 10%;
 }
 
+.image-div {
+  margin-top: 25%;
+}
+
 .image {
+  padding-top: 50px;
   size: 5%;
 }
 
