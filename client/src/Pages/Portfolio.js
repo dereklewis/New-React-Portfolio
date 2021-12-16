@@ -12,7 +12,7 @@ const Project = () => {
   return (
     <Container className="portfolio-cards">
       <Row>
-        <Col>
+        <Col xs={6}>
           {/* <div className="flex-d flex-wrap justify-content-center"></div> */}
           <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={Concert} />
@@ -67,7 +67,7 @@ const Project = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col id="portfolio-column">
           <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={GitOutside} />
             <Card.Body>

@@ -16,6 +16,7 @@ import ContactForm from "./components/Contact Form/ContactForm";
 import AboutMe from "./Pages/AboutMe";
 import Portfolio from "./Pages/Portfolio";
 import Resume from "./Pages/Resume";
+import Home from "./Pages/Home";
 import "./App.css";
 
 const httpLink = createHttpLink({
@@ -48,7 +49,7 @@ function App() {
         <div className="container"></div>
         <Switch>
           <Route exact path="/New-React-Portfolio">
-            <AboutMe />
+            <Home />
           </Route>
           <Route exact path="/aboutme">
             <AboutMe />

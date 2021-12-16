@@ -6,7 +6,7 @@ import "../NavBar/NavBar.css";
 export const NavBar = () => {
   return (
     <>
-      <Navbar bg="dark" variant="light" fixed="top" id="#nav-bar">
+      <Navbar fixed="top" id="#nav-bar">
         <Container className="justify-content-right">
           <Link to="/aboutme" className="brandName">
             Derek Lewis
