@@ -1,9 +1,12 @@
 :root {
-  --light: #a8d0e6;
-  --dark: #24305e;
-  --accentMelon: #f76c6c;
-  --accentYellow: #f8e9a1;
-  --accentBlue: #374785;
+  --light: #99ddff;
+  --dark: #00458b;
+  --accentGreen: #3fd2c7;
 }
 
-
+.navLink {
+  color: var(--accentGreen);
+  justify-content: space-around;
+  margin-left: 40px;
+  text-decoration: none;
+}

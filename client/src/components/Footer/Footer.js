@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { ExternalLink } from "react-external-link";
-import "../NavBar/NavBar.css";
+import "../Footer/Footer.css";
 
 export const Footer = () => {
   return (

@@ -4,29 +4,10 @@
   --accentGreen: #3fd2c7;
 }
 
-.navBar {
+/* .navLinkDiv {
   display: flex;
   justify-content: space-around;
-  background-color: var(--dark);
-}
-
-.navLinkDiv {
-  display: flex;
-  justify-content: space-around;
-}
-
-.navLink {
-  color: var(--accentGreen);
-  justify-content: space-around;
-  margin-left: 40px;
-  text-decoration: none;
-}
-
-.brandName {
-  color: var(--dark);
-  font-size: 30px;
-  text-decoration: none;
-}
+} */
 
 .text {
   color: var(--dark);
@@ -72,19 +53,20 @@
   color: var(--accentYellow);
 }
 
-.App {
+.card-text {
+  background-color: var(--accentGreen);
+}
+
+/* .App {
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-.card-text {
-  background-color: var(--accentGreen);
-}
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -112,4 +94,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
