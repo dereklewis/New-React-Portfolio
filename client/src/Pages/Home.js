@@ -4,13 +4,13 @@ import YourImage from "../components/assets/fullbody.jpeg";
 
 const Home = () => {
   return (
-    <Container fluid className="flexbox">
+    <Container style={{ display: "Flex" }}>
       <Row xs={4}>
         <div classname="image-div">
           <img className="image" src={YourImage} fluid />
         </div>
       </Row>
-      <Row>
+      <Row xs={8}>
         <p className="text">
           After 20 years in the hospitality industry I am excited to make a
           change! I am originally from Binghamton, New York and I love going to
