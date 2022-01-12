@@ -31,11 +31,19 @@ const Project = () => {
                 can find like-minded people close to your neighborhood to get a
                 ride with or ride with you to your favorite concert. Who knows,
                 you may even find a new best friend in the process.
-                <ExternalLink href="https://github.com/dereklewis/New-React-Portfolio">
+                {/* <ExternalLink
+                  className="repo-link"
+                  href="https://github.com/dereklewis/New-React-Portfolio"
+                >
                   <span>Github Repository</span>
-                </ExternalLink>
+                </ExternalLink> */}
               </Card.Text>
-              <Button variant="primary">
+              <Button className="gitButton" variant="primary">
+                <ExternalLink href="https://github.com/dereklewis/New-React-Portfolio">
+                  <span className="navButtonText">GitHub Repository</span>
+                </ExternalLink>
+              </Button>
+              <Button className="siteButton" variant="primary">
                 <ExternalLink href="https://boiling-reef-48460.herokuapp.com/">
                   <span className="navButtonText">Visit Concert Carpool</span>
                 </ExternalLink>

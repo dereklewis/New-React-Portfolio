@@ -75,10 +75,27 @@
 
 .card-body {
   background-color: var(--light);
+  display: flex-flow;
+}
+
+.repo-link {
+  color: black;
 }
 
 .navButtonText {
   color: var(--dark);
+}
+
+.gitButton {
+  width: 100%;
+  border: solid black;
+  margin-bottom: 2px;
+}
+
+.siteButton {
+  width: 100%;
+  border: solid black;
+  margin-top: 2px;
 }
 
 .card-img-top {
