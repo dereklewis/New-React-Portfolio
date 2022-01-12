@@ -19,8 +19,18 @@ const Project = () => {
             <Card.Body>
               <Card.Title>Concert Carpool</Card.Title>
               <Card.Text className="card-text">
-                This project was designed to help concert goers get to and from
-                concerts and events more easily
+                Going to live concerts can be incredibly enriching and
+                fulfilling events. However, getting to the venue and back home
+                safely is usually a difficult situation to navigate. While "Ride
+                Sharing" services seem like a suitable alternative to driving
+                yourself, often times it comes at a great cost, you are unable
+                to locate your driver in a sea of fans or there is not enough
+                bandwith to properly load the app. That is why we created
+                Concert Carpool. Concert Carpool is a full stack web application
+                designed to connect people who truly want to share rides. You
+                can find like-minded people close to your neighborhood to get a
+                ride with or ride with you to your favorite concert. Who knows,
+                you may even find a new best friend in the process.
                 <ExternalLink href="https://github.com/dereklewis/New-React-Portfolio">
                   <span>Github Repository</span>
                 </ExternalLink>

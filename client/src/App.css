@@ -64,12 +64,21 @@
   color: var(--dark);
 }
 
-.navButtonText {
+/* .navButtonText {
   color: var(--accentYellow);
-}
+} */
 
 .card-text {
-  background-color: var(--accentGreen);
+  color: var(--dark);
+  background-color: var(--light);
+}
+
+.card-body {
+  background-color: var(--light);
+}
+
+.navButtonText {
+  color: var(--dark);
 }
 
 .card-img-top {
