@@ -12,9 +12,9 @@
 .text {
   color: var(--dark);
   font-size: 30px;
-  margin: 50px 0px 0px 20px;
-
-  /* background-color: var(--light); */
+  margin: 100px 0px 0px 20px;
+  background-color: var(--light);
+  text-align: center;
 }
 
 .text-row {
@@ -33,7 +33,7 @@
 }
 
 .image {
-  padding-top: 50px;
+  padding-top: 100px;
   size: 5%;
 }
 

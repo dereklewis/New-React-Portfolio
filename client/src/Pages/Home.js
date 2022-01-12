@@ -19,12 +19,14 @@ const Home = () => {
       <Row xs={8} classname="text-row">
         {/* <image classname="cloud-image" src={CloudImage} fluid /> */}
         <p className="text">
-          After 20 years in the hospitality industry I am excited to make a
-          change! I am originally from Binghamton, New York and I love going to
-          see live music, traveling, cooking, golf and team trivia. I now live
-          in beautiful Denver, Colorado. I want to be a web developer because I
-          believe that websites tell the story of who you are to the world and I
-          want to help people tell their best stories. Cheers -- Derek
+          I am a Full Stack Web Developer with a Web Development Certificate
+          from the University of Denver. Experienced at building full stack web
+          applications from the ground up utilizing the MERN stack and other
+          frameworks/libraries. Adept at working within diverse groups of all
+          sizes. Strong interpersonal skills and a team player that is
+          passionate about the success of the organization. Experience with
+          large complex projects with multiple stakeholders such as new
+          restaurant/hotel openings and transitions.
         </p>
       </Row>
     </Container>
