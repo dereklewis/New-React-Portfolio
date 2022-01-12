@@ -13,7 +13,7 @@ export const NavBar = () => {
           </Link>
           <Nav className="justify-content-center" activeKey="/home">
             <Nav.Item>
-              <Link to="/" className="navLink">
+              <Link to="/New-React-Portfolio" className="navLink">
                 About Me
               </Link>
             </Nav.Item>
