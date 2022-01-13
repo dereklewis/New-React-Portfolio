@@ -33,7 +33,11 @@ const Project = () => {
                 you may even find a new best friend in the process.
               </Card.Text>
               <Card.Text className="card-text">
-                This application was built using the MERN stack.
+                This is a full stack application built using the MERN stack. We
+                utilized the SeatGeek API to automatically pull the local event
+                information and populate the site. MongoDB Atlas is used to
+                retain user data. The user verification is done with JSON web
+                tokens.
               </Card.Text>
               <Button className="gitButton" variant="primary">
                 <ExternalLink href="https://github.com/dereklewis/New-React-Portfolio">
