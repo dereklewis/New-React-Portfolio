@@ -56,7 +56,18 @@ const Project = () => {
             <Card.Img variant="top" src={Workout} />
             <Card.Body>
               <Card.Title className="cardTitle">Workout Tracker</Card.Title>
-              <Card.Text></Card.Text>
+              <Card.Text>
+                This application was built to track users workout data. The user
+                is able to enter in various workout activities which are broken
+                down into resistance and cardio categories. From there, the user
+                can track weight, sets, repatitions, duration and milage. The
+                application then aggregates the totals for the user to see
+                across time.
+              </Card.Text>
+              <Card.Text>
+                The full stack application was built using HTML and CSS on the
+                front end and Mongoose for the back end.
+              </Card.Text>
               <Button className="gitButton" variant="primary">
                 <ExternalLink href="https://github.com/dereklewis/Workout-tracker">
                   <span className="navButtonText">GitHub Repository</span>
