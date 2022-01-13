@@ -32,6 +32,9 @@ const Project = () => {
                 ride with or ride with you to your favorite concert. Who knows,
                 you may even find a new best friend in the process.
               </Card.Text>
+              <Card.Text className="card-text">
+                This application was built using the MERN stack.
+              </Card.Text>
               <Button className="gitButton" variant="primary">
                 <ExternalLink href="https://github.com/dereklewis/New-React-Portfolio">
                   <span className="navButtonText">GitHub Repository</span>
@@ -49,7 +52,7 @@ const Project = () => {
             <Card.Img variant="top" src={Workout} />
             <Card.Body>
               <Card.Title className="cardTitle">Workout Tracker</Card.Title>
-              <Card.Text>Description goes here</Card.Text>
+              <Card.Text></Card.Text>
               <Button className="gitButton" variant="primary">
                 <ExternalLink href="https://github.com/dereklewis/Workout-tracker">
                   <span className="navButtonText">GitHub Repository</span>
