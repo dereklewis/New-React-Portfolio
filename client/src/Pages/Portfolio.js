@@ -12,6 +12,7 @@ const Project = () => {
   return (
     <Container className="portfolio-cards">
       <Row>
+        <div className="spacingDiv"></div>
         <Col xs={6}>
           {/* <div className="flex-d flex-wrap justify-content-center"></div> */}
           <Card style={{ width: "30rem" }}>
@@ -80,8 +81,9 @@ const Project = () => {
               </Button>
             </Card.Body>
           </Card>
+          <div className="spacingDiv"></div>
 
-          <Card style={{ width: "30rem" }}>
+          {/* <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={Lyrific} />
             <Card.Body>
               <Card.Title className="cardTitle">Lyrific</Card.Title>
@@ -111,7 +113,7 @@ const Project = () => {
                 </ExternalLink>
               </Button>
             </Card.Body>
-          </Card>
+          </Card> */}
         </Col>
         <Col id="portfolio-column">
           <Card style={{ width: "30rem" }}>
@@ -145,8 +147,38 @@ const Project = () => {
               </Button>
             </Card.Body>
           </Card>
-
           <Card style={{ width: "30rem" }}>
+            <Card.Img variant="top" src={Lyrific} />
+            <Card.Body>
+              <Card.Title className="cardTitle">Lyrific</Card.Title>
+              <Card.Text>
+                The Lyrific application was designed to help Karaoke aficionados
+                find lyrics to songs they would like to sing for practice
+                purposes. They can also utilize it as a way to brush up on the
+                lyrics prior to a performance. There is also a current Top 10
+                song list for those who would like to learn the most current
+                hits.
+              </Card.Text>
+              <Card.Text>
+                The application is built simply with HTML, CSS and Javascript.
+                Two APIs are used to pull the lyric information and to populate
+                the Top 10 list. While the lyrics feature only displays 30% of
+                each song, the idea was to pay for the full lyrics once the
+                application was monetized.
+              </Card.Text>
+              <Button className="gitButton" variant="primary">
+                <ExternalLink href="https://github.com/dereklewis/music-project-main">
+                  <span className="navButtonText">GitHub Repository</span>
+                </ExternalLink>
+              </Button>
+              <Button className="siteButton" variant="primary">
+                <ExternalLink href="https://dereklewis.github.io/music-project-main/">
+                  <span className="navButtonText">Visit Lyrific</span>
+                </ExternalLink>
+              </Button>
+            </Card.Body>
+          </Card>
+          {/* <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={NoteTaker} />
             <Card.Body>
               <Card.Title className="cardTitle">Note Taker</Card.Title>
@@ -180,7 +212,7 @@ const Project = () => {
                 </ExternalLink>
               </Button>
             </Card.Body>
-          </Card>
+          </Card> */}
         </Col>
         {/* </div>
         </div> */}

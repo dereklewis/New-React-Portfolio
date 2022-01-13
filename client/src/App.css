@@ -47,9 +47,9 @@
   justify-content: center;
 }
 
-.project-cards {
+/* .project-cards {
   padding-top: 20%;
-}
+} */
 
 .header1 {
   font-size: 40px;
@@ -103,8 +103,12 @@
   margin-top: 2px;
 }
 
-.card-img-top {
+/* .card-img-top {
   margin-top: 70px;
+} */
+
+.spacingDiv {
+  height: 100px;
 }
 
 [class*="col-"] {
