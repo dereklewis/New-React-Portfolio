@@ -118,7 +118,21 @@ const Project = () => {
             <Card.Img variant="top" src={GitOutside} />
             <Card.Body>
               <Card.Title className="cardTitle">Git Outside</Card.Title>
-              <Card.Text>Description goes here</Card.Text>
+              <Card.Text>
+                Outdoor activities experience a significant uptick since the
+                beginning of the pandemic. Camping is perfect for social
+                distancing while still letting people get out of the house. As a
+                result, campsites have been used more than ever and it has
+                created a need for more campsites to get on the map. Git Outside
+                was created to allow campers to share their feedback on
+                campsites all over the country so that others can enjoy the best
+                that the great outdoors has to offer.
+              </Card.Text>
+              <Card.Text>
+                The technologies used to create this application were HTML, CSS,
+                Bootswatch, NodeJS, Heroku, MySQL Workbench, MySQL@, Handlebars,
+                Cloudinaary, JawsDB and ExpressJs.
+              </Card.Text>
               <Button className="gitButton" variant="primary">
                 <ExternalLink href="https://github.com/dereklewis/Git-Outside">
                   <span className="navButtonText">GitHub Repository</span>
