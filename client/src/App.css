@@ -15,6 +15,7 @@
   margin: 100px 0px 0px 20px;
   /* background-color: var(--light); */
   text-align: center;
+  /* padding-top: 25%; */
 }
 
 .text-row {
@@ -67,6 +68,10 @@
 /* .navButtonText {
   color: var(--accentYellow);
 } */
+
+.cardTitle {
+  text-align: center;
+}
 
 .card-text {
   color: var(--dark);

@@ -22,10 +22,10 @@ const Home = () => {
           I am a Full Stack Web Developer with a Web Development Certificate
           from the University of Denver. Experienced at building full stack web
           applications from the ground up utilizing the MERN stack and other
-          frameworks/libraries. Adept at working within diverse groups of all
-          sizes. Strong interpersonal skills and a team player that is
-          passionate about the success of the organization. Experience with
-          large complex projects with multiple stakeholders such as new
+          frameworks/libraries and databases. Adept at working within diverse
+          groups of all sizes. Strong interpersonal skills and a team player
+          that is passionate about the success of the organization. Experience
+          with large complex projects with multiple stakeholders such as new
           restaurant/hotel openings and transitions.
         </p>
       </Row>

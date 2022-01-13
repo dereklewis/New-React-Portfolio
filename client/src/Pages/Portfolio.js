@@ -17,7 +17,7 @@ const Project = () => {
           <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={Concert} />
             <Card.Body>
-              <Card.Title>Concert Carpool</Card.Title>
+              <Card.Title className="cardTitle">Concert Carpool</Card.Title>
               <Card.Text className="card-text">
                 Going to live concerts can be incredibly enriching and
                 fulfilling events. However, getting to the venue and back home
@@ -31,12 +31,6 @@ const Project = () => {
                 can find like-minded people close to your neighborhood to get a
                 ride with or ride with you to your favorite concert. Who knows,
                 you may even find a new best friend in the process.
-                {/* <ExternalLink
-                  className="repo-link"
-                  href="https://github.com/dereklewis/New-React-Portfolio"
-                >
-                  <span>Github Repository</span>
-                </ExternalLink> */}
               </Card.Text>
               <Button className="gitButton" variant="primary">
                 <ExternalLink href="https://github.com/dereklewis/New-React-Portfolio">
@@ -54,13 +48,14 @@ const Project = () => {
           <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={Workout} />
             <Card.Body>
-              <Card.Title>Workout Tracker</Card.Title>
-              <Card.Text>
+              <Card.Title className="cardTitle">Workout Tracker</Card.Title>
+              <Card.Text>Description goes here</Card.Text>
+              <Button className="gitButton" variant="primary">
                 <ExternalLink href="https://github.com/dereklewis/Workout-tracker">
-                  <span>Github Repository</span>
+                  <span className="navButtonText">GitHub Repository</span>
                 </ExternalLink>
-              </Card.Text>
-              <Button variant="primary">
+              </Button>
+              <Button className="siteButton" variant="primary">
                 <ExternalLink href="https://agile-sierra-81172.herokuapp.com/?id=6160c58e39f1400016275b76">
                   <span className="navButtonText">Visit Workout Tracker</span>
                 </ExternalLink>
@@ -71,13 +66,14 @@ const Project = () => {
           <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={Lyrific} />
             <Card.Body>
-              <Card.Title>Lyrific</Card.Title>
-              <Card.Text>
+              <Card.Title className="cardTitle">Lyrific</Card.Title>
+              <Card.Text>Description goes here</Card.Text>
+              <Button className="gitButton" variant="primary">
                 <ExternalLink href="https://github.com/dereklewis/music-project-main">
-                  <span>Github Repository</span>
+                  <span className="navButtonText">GitHub Repository</span>
                 </ExternalLink>
-              </Card.Text>
-              <Button variant="primary">
+              </Button>
+              <Button className="siteButton" variant="primary">
                 <ExternalLink href="https://dereklewis.github.io/music-project-main/">
                   <span className="navButtonText">Visit Lyrific</span>
                 </ExternalLink>
@@ -89,13 +85,14 @@ const Project = () => {
           <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={GitOutside} />
             <Card.Body>
-              <Card.Title>Git Outside</Card.Title>
-              <Card.Text>
+              <Card.Title className="cardTitle">Git Outside</Card.Title>
+              <Card.Text>Description goes here</Card.Text>
+              <Button className="gitButton" variant="primary">
                 <ExternalLink href="https://github.com/dereklewis/Git-Outside">
-                  <span>Github Repository</span>
+                  <span className="navButtonText">GitHub Repository</span>
                 </ExternalLink>
-              </Card.Text>
-              <Button variant="primary">
+              </Button>
+              <Button className="siteButton" variant="primary">
                 <ExternalLink href="https://git-outside.herokuapp.com/">
                   <span className="navButtonText">Visit Git Outside</span>
                 </ExternalLink>
@@ -106,13 +103,14 @@ const Project = () => {
           <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={NoteTaker} />
             <Card.Body>
-              <Card.Title>Note Taker</Card.Title>
-              <Card.Text>
+              <Card.Title className="cardTitle">Note Taker</Card.Title>
+              <Card.Text>Description goes here</Card.Text>
+              <Button className="gitButton" variant="primary">
                 <ExternalLink href="https://github.com/dereklewis/note-taker/settings">
-                  <span>Github Repository</span>
+                  <span className="navButtonText">Visit Note Taker</span>
                 </ExternalLink>
-              </Card.Text>
-              <Button variant="primary">
+              </Button>
+              <Button className="siteButton" variant="primary">
                 <ExternalLink href="https://obscure-journey-60350.herokuapp.com/">
                   <span className="navButtonText">Visit Note Taker</span>
                 </ExternalLink>
@@ -123,13 +121,14 @@ const Project = () => {
           <Card style={{ width: "30rem" }}>
             <Card.Img variant="top" src={DayPlanner} />
             <Card.Body>
-              <Card.Title>Day Planner</Card.Title>
-              <Card.Text>
+              <Card.Title className="cardTitle">Day Planner</Card.Title>
+              <Card.Text>Description goes here</Card.Text>
+              <Button className="gitButton" variant="primary">
                 <ExternalLink href="https://github.com/dereklewis/day-planner">
-                  <span>Github Repository</span>
+                  <span className="navButtonText">Visit Day Planner</span>
                 </ExternalLink>
-              </Card.Text>
-              <Button variant="primary">
+              </Button>
+              <Button className="siteButton" variant="primary">
                 <ExternalLink href="https://dereklewis.github.io/day-planner/">
                   <span className="navButtonText">Visit Day Planner</span>
                 </ExternalLink>
