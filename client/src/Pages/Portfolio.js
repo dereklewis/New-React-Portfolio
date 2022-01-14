@@ -4,9 +4,7 @@ import { ExternalLink } from "react-external-link";
 import Concert from "../components/assets/concert.png";
 import GitOutside from "../components/assets/gitoutside.png";
 import Workout from "../components/assets/workout.png";
-import NoteTaker from "../components/assets/notetaker.png";
 import Lyrific from "../components/assets/lyrific.png";
-import DayPlanner from "../components/assets/dayplanner.png";
 
 const Project = () => {
   return (
