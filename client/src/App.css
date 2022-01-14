@@ -58,15 +58,15 @@
 
 .header1 {
   font-size: 40px;
-  color: var(--accentGreen);
+  color: var(--dark);
 }
 .resume-block {
   padding: 20% 100% 100% 20%;
-  background-color: var(--accentPink);
 }
 
 .resumeButton {
-  background-color: var(--accentYellow);
+  width: 200px;
+  background-color: var(--light);
   color: var(--dark);
 }
 

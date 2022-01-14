@@ -1,11 +1,17 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { Button } from "react-bootstrap";
+// import AllPagesPDFViewer from "../components/pdf/all-pages";
+// import samplePDF from "../components/derekresume.docx.pdf";
 
 const Resume = () => {
   return (
     <Container className="resume-block">
       <>
+        {/* <h4>All Pages</h4>
+        <div className="all-page-container">
+          <AllPagesPDFViewer pdf={samplePDF} />
+        </div> */}
         <div>
           <h1 className="header1">RESUME</h1>
           <Button
