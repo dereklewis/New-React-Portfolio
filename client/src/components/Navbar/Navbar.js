@@ -22,11 +22,11 @@ export const NavBar = () => {
                 Portfolio
               </Link>
             </Nav.Item>
-            <Nav.Item>
+            {/* <Nav.Item>
               <Link to="/contact" className="navLink">
                 Contact
               </Link>
-            </Nav.Item>
+            </Nav.Item> */}
             <Nav.Item>
               <Link to="/resume" className="navLink">
                 Resume

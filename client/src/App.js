@@ -12,7 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 
-import ContactForm from "./components/Contact Form/ContactForm";
+// import ContactForm from "./components/Contact Form/ContactForm";
 import AboutMe from "./Pages/AboutMe";
 import Portfolio from "./Pages/Portfolio";
 import Resume from "./Pages/Resume";
@@ -57,9 +57,9 @@ function App() {
           <Route exact path="/portfolio">
             <Portfolio />
           </Route>
-          <Route exact path="/contact">
+          {/* <Route exact path="/contact">
             <ContactForm />
-          </Route>
+          </Route> */}
           <Route exact path="/resume">
             <Resume />
           </Route>
