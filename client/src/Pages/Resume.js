@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { Button } from "react-bootstrap";
+import ButtonMailto from "./MailToButton";
 // import AllPagesPDFViewer from "../components/pdf/all-pages";
 // import samplePDF from "../components/derekresume.docx.pdf";
 
@@ -22,6 +23,11 @@ const Resume = () => {
             Download Derek's Resume
           </Button>{" "}
         </div>
+        <ButtonMailto
+          className="mailToButton"
+          label="E-Mail Derek"
+          mailto="mailto:derek.lewis513@gmail.com"
+        />
       </>
     </Container>
   );
