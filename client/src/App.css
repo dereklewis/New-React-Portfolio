@@ -12,7 +12,7 @@
 .text {
   color: var(--dark);
   font-size: 30px;
-  margin: 100px 0px 0px 20px;
+  /* margin: 100px 0px 0px 20px; */
   /* background-color: var(--light); */
   text-align: center;
   /* padding-top: 25%; */
@@ -21,19 +21,32 @@
 .text-row {
   background-image: url("./components/assets/cloudimage.jpg");
 }
+.homeContainer {
+  padding-top: 10%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
 
 .about-block {
   padding-top: 10%;
 }
 
 .image-div {
-  margin-top: 25%;
+  width: 300px;
 }
 
-.image {
+.textDiv {
+  width: 600px;
+  font-size: 25px;
+  color: var(--dark);
+  padding-top: 10px;
+}
+
+/* .image {
   padding-top: 100px;
   size: 5%;
-}
+} */
 
 .form {
   display: flex;
