@@ -22,9 +22,6 @@
   background-image: url("./components/assets/cloudimage.jpg");
 }
 
-.cloud-image {
-}
-
 .about-block {
   padding-top: 10%;
 }
@@ -61,20 +58,28 @@
   color: var(--dark);
 }
 .resume-block {
-  padding: 20% 100% 100% 20%;
+  padding-top: 20%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
 }
 
 .resumeButton {
-  width: 200px;
+  width: 300px;
+  height: 200px;
   background-color: var(--light);
   color: var(--dark);
+  font-size: 40px;
 }
 
 .mailTo {
   color: var(--dark);
+  background-color: var(--light);
   font-size: 40px;
   text-align: center;
-  width: 200px;
+  width: 300px;
+  height: 200px;
+  align-content: center;
 }
 
 /* .navButtonText {

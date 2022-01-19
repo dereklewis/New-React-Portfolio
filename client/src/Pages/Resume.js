@@ -9,12 +9,7 @@ const Resume = () => {
   return (
     <Container className="resume-block">
       <>
-        {/* <h4>All Pages</h4>
-        <div className="all-page-container">
-          <AllPagesPDFViewer pdf={samplePDF} />
-        </div> */}
         <div>
-          {/* <h1 className="header1">RESUME</h1> */}
           <Button
             className="resumeButton"
             href="https://drive.google.com/file/d/1_3A9yxtqV1amNaLuWnGXHJgKU_bNQ7sc/view?usp=sharing"
